@@ -1,0 +1,7 @@
+#grid1 div[class^="col"]{
+    border: 2px solid red;
+    min-height: 275px;
+}
+.row{
+    border: black solid 2px;
+}
