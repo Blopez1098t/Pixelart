@@ -1,14 +1,10 @@
 body{
     background-image: url(../img/background.jpg);
 }
-#grid1 div[class^="col"]{
+/* #grid1 div[class^="col"]{
     border: 2px solid red;
     
-}
-.row{
-    border: black solid 2px;
-}
-
+} */
 h1{
     font-family: "VT323", monospace;
     font-weight: 400;
@@ -40,8 +36,12 @@ h3{
     --bs-btn-font-size: 30px;
     font-family: "VT323", monospace; ;
     color: white;
-    text-align: left;
     text-shadow: -2.5px 0px black;
     border: 3px solid #858585;
     border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    max-height: 45px;
 }
